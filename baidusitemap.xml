@@ -33,42 +33,5 @@
     
     
     
-  <url>
-    <loc>http://yoursite.com/2018/04/05/index/</loc>
-    <lastmod>2018-04-04T16:41:38.290Z</lastmod>
-    <data>
-        <display>
-        <title>index</title>
-        <pubTime>2018-04-05T00:36:55.000Z</pubTime>
-        
-        <tag>导航</tag>
-         
-        <tag>分享</tag>
-         
-         
-           
-             
-              <breadCrumb title="前端" url="http://yoursite.com/categories/%E5%89%8D%E7%AB%AF/"/>
-          
-        </display>
-    </data>
-    </url>
-
     
-    
-    
-  <url>
-    <loc>http://yoursite.com/2018/04/04/hello-world/</loc>
-    <lastmod>2018-04-04T07:54:36.111Z</lastmod>
-    <data>
-        <display>
-        <title>Hello World</title>
-        <pubTime>2018-04-04T07:54:36.110Z</pubTime>
-        
-         
-           
-        </display>
-    </data>
-    </url>
-
 </urlset>
