@@ -86,7 +86,7 @@
 
 
 
-  <meta name="keywords" content="爱情,恋爱,回忆,初恋," />
+  <meta name="keywords" content="爱情,恋爱,初恋,回忆," />
 
 
 
@@ -100,7 +100,7 @@
 
 
 <meta name="description" content="无所谓谁真谁假,我只在乎能否在遇见你,当门前的红灯亮起时,你是否想起了我?     我之所以会变成这样子，是吧？其实是有原因的   小时候我家在一个小农村，隔壁住着一位有钱人的人家，他家有个乖巧的女儿，叫妮妮，比我大了两岁，她的眼睛很明亮,看起来非常的耀眼，在我的眼里她就是个小天使。我要说的是，我和她之间不得不说的故事   依稀记得那年，我八岁，她十岁，那天是一个上午，天空晴朗，万里无云，我和她">
-<meta name="keywords" content="爱情,恋爱,回忆,初恋">
+<meta name="keywords" content="爱情,恋爱,初恋,回忆">
 <meta property="og:type" content="article">
 <meta property="og:title" content="追风男神,嫖断吊">
 <meta property="og:url" content="http://yoursite.com/2018/04/06/追风男神-嫖断吊/index.html">
@@ -400,6 +400,16 @@
 
           
             
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/2018/04/06/追风男神-嫖断吊/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count valine-comment-count" data-xid="/2018/04/06/追风男神-嫖断吊/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
           
 
           
@@ -610,9 +620,9 @@
           
             <a href="/tags/恋爱/" rel="tag"><i class="fa fa-tag"></i> 恋爱</a>
           
-            <a href="/tags/回忆/" rel="tag"><i class="fa fa-tag"></i> 回忆</a>
-          
             <a href="/tags/初恋/" rel="tag"><i class="fa fa-tag"></i> 初恋</a>
+          
+            <a href="/tags/回忆/" rel="tag"><i class="fa fa-tag"></i> 回忆</a>
           
         </div>
       
@@ -702,9 +712,7 @@
 
   
     <div class="comments" id="comments">
-      <div id="lv-container" data-id="city" data-uid="MTAyMC8zNTQ4NC8xMjAyMA=="></div>
     </div>
-
   
   
 
@@ -934,10 +942,6 @@
     
 
 	
-   <canvas class="fireworks" style="position: fixed;left: 0;top: 0;z-index: 1; pointer-events: none;" ></canvas> 
-   <script type="text/javascript" src="//cdn.bootcss.com/animejs/2.2.0/anime.min.js"></script> 
-   <script type="text/javascript" src="/js/src/fireworks.js"></script>
-
 	
   </div>
 
@@ -1047,26 +1051,37 @@
 
 
   
-    <script type="text/javascript">
-      (function(d, s) {
-        var j, e = d.getElementsByTagName(s)[0];
-        if (typeof LivereTower === 'function') { return; }
-        j = d.createElement(s);
-        j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
-        j.async = true;
-        e.parentNode.insertBefore(j, e);
-      })(document, 'script');
-    </script>
+
+
+
+
+
+
+
+
+
+
+  <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+  <script src="//unpkg.com/valine/dist/Valine.min.js"></script>
   
-
-
-
-
-
-
-
-
-
+  <script type="text/javascript">
+    var GUEST = ['nick','mail','link'];
+    var guest = 'nick,mail,link';
+    guest = guest.split(',').filter(item=>{
+      return GUEST.indexOf(item)>-1;
+    });
+    new Valine({
+        el: '#comments' ,
+        verify: true,
+        notify: true,
+        appId: '0pjkXEWLxbw7gkvbhsWghm2H-gzGzoHsz',
+        appKey: 'kpiT0iXlkmhyHfqyW1IR8Pug',
+        placeholder: 'ヾﾉ≧∀≦)o来啊，快活啊!',
+        avatar:'mm',
+        guest_info:guest,
+        pageSize:'10' || 10,
+    });
+  </script>
 
 
 
