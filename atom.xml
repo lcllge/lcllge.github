@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-04-19T00:45:53.805Z</updated>
+  <updated>2018-04-24T07:08:30.289Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,40 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>SpringMVC前台传参后台接收</title>
+    <link href="http://yoursite.com/2018/04/24/SpringMVC%E5%89%8D%E5%8F%B0%E4%BC%A0%E5%8F%82%E5%90%8E%E5%8F%B0%E6%8E%A5%E6%94%B6/"/>
+    <id>http://yoursite.com/2018/04/24/SpringMVC前台传参后台接收/</id>
+    <published>2018-04-24T14:55:42.000Z</published>
+    <updated>2018-04-24T07:08:30.289Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote><p>关于Springmvc接收前台传过来的参数有以下几种方式</p></blockquote><p><strong><em>1</em></strong> )  在方法里面加入 <strong><em>HttpServletRequest</em></strong>参数(很重要,要不然接收不到前台的参数)</p><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">@RequestMapping</span>(<span class="string">"/login"</span>)</span><br><span class="line"><span class="function"><span class="keyword">public</span> String <span class="title">login</span><span class="params">(HttpServletRequest request, User user)</span></span>&#123;</span><br><span class="line">    <span class="comment">//判断账号</span></span><br><span class="line">    System.out.println(user.getUsername());</span><br><span class="line">    <span class="keyword">return</span> <span class="string">"info"</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>或者是这样子</p><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">@RequestMapping</span>(<span class="string">"/login"</span>)</span><br><span class="line"><span class="function"><span class="keyword">public</span> String <span class="title">login</span><span class="params">(HttpServletRequest request, String username,String password)</span></span>&#123;</span><br><span class="line">    <span class="comment">//判断账号</span></span><br><span class="line">    System.out.println(uesrname);</span><br><span class="line">    <span class="keyword">return</span> <span class="string">"info"</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p><strong><em>2</em></strong>)  用Map去接收,记得要有 <strong><em>@RequestParam</em></strong>注解</p><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">@RequestMapping</span>(<span class="string">"/login"</span>)  </span><br><span class="line"><span class="function"><span class="keyword">public</span> String <span class="title">login</span><span class="params">(@RequestParam Map&lt;String,String&gt; map)</span></span>&#123;  </span><br><span class="line">    String text = map.get(<span class="string">"username"</span>);  </span><br><span class="line">    String password = map.get(<span class="string">"password"</span>);  </span><br><span class="line">    <span class="keyword">return</span> <span class="string">"info"</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p><strong><em>3</em></strong>)  没办法的办法(用request取参数,对post和get都可以用)</p><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">@RequestMapping</span>(<span class="string">"/login"</span>)  </span><br><span class="line"><span class="function"><span class="keyword">public</span> String <span class="title">login</span><span class="params">(HttpServletRequest request)</span></span>&#123;  </span><br><span class="line">    String text = request.getParameter(<span class="string">"username"</span>);  </span><br><span class="line">    String password = request.getParameter(<span class="string">"password"</span>);  </span><br><span class="line">    <span class="keyword">return</span> <span class="string">"info"</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><blockquote><p>最后在附上jsp代码</p></blockquote><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">form</span> <span class="attr">class</span>=<span class="string">"form-signin"</span> <span class="attr">method</span>=<span class="string">"POST"</span> <span class="attr">action</span>=<span class="string">"login"</span>&gt;</span></span><br><span class="line">      <span class="tag">&lt;<span class="name">label</span> <span class="attr">for</span>=<span class="string">"username"</span> <span class="attr">class</span>=<span class="string">"sr-only"</span>&gt;</span>username<span class="tag">&lt;/<span class="name">label</span>&gt;</span></span><br><span class="line">      <span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">"text"</span> <span class="attr">name</span>=<span class="string">"username"</span> <span class="attr">class</span>=<span class="string">"form-control"</span> <span class="attr">placeholder</span>=<span class="string">"username"</span> &gt;</span></span><br><span class="line">      <span class="tag">&lt;<span class="name">label</span> <span class="attr">for</span>=<span class="string">"inputPassword"</span> <span class="attr">class</span>=<span class="string">"sr-only"</span>&gt;</span>Password<span class="tag">&lt;/<span class="name">label</span>&gt;</span></span><br><span class="line">      <span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">"password"</span> <span class="attr">name</span>=<span class="string">"inputPassword"</span> <span class="attr">class</span>=<span class="string">"form-control"</span> <span class="attr">placeholder</span>=<span class="string">"Password"</span>&gt;</span></span><br><span class="line">      <span class="tag">&lt;<span class="name">button</span> <span class="attr">class</span>=<span class="string">"btn btn-lg btn-primary btn-block"</span> <span class="attr">type</span>=<span class="string">"submit"</span>&gt;</span>Sign in<span class="tag">&lt;/<span class="name">button</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">form</span>&gt;</span></span><br></pre></td></tr></table></figure><p>本文环境为    <strong>springboot1.5.2.RELEASE    内置 springweb 4.3.7.RELEASE</strong></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;blockquote&gt;
+&lt;p&gt;关于Springmvc接收前台传过来的参数有以下几种方式&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;1&lt;/em&gt;&lt;/strong&gt; )  在方法里面加入 &lt;strong&gt;&lt;em&gt;HttpServletRequest&lt;/em&gt;
+      
+    
+    </summary>
+    
+      <category term="SpringMVC" scheme="http://yoursite.com/categories/SpringMVC/"/>
+    
+    
+      <category term="SpringMVC" scheme="http://yoursite.com/tags/SpringMVC/"/>
+    
+      <category term="Spring" scheme="http://yoursite.com/tags/Spring/"/>
+    
+      <category term="前台传参" scheme="http://yoursite.com/tags/%E5%89%8D%E5%8F%B0%E4%BC%A0%E5%8F%82/"/>
+    
+      <category term="后台接收参数" scheme="http://yoursite.com/tags/%E5%90%8E%E5%8F%B0%E6%8E%A5%E6%94%B6%E5%8F%82%E6%95%B0/"/>
+    
+  </entry>
   
   <entry>
     <title>apple</title>
@@ -42,9 +76,9 @@
     
       <category term="恋爱" scheme="http://yoursite.com/tags/%E6%81%8B%E7%88%B1/"/>
     
-      <category term="回忆" scheme="http://yoursite.com/tags/%E5%9B%9E%E5%BF%86/"/>
-    
       <category term="遗憾" scheme="http://yoursite.com/tags/%E9%81%97%E6%86%BE/"/>
+    
+      <category term="回忆" scheme="http://yoursite.com/tags/%E5%9B%9E%E5%BF%86/"/>
     
   </entry>
   
@@ -72,9 +106,9 @@
     
       <category term="恋爱" scheme="http://yoursite.com/tags/%E6%81%8B%E7%88%B1/"/>
     
-      <category term="初恋" scheme="http://yoursite.com/tags/%E5%88%9D%E6%81%8B/"/>
-    
       <category term="回忆" scheme="http://yoursite.com/tags/%E5%9B%9E%E5%BF%86/"/>
+    
+      <category term="初恋" scheme="http://yoursite.com/tags/%E5%88%9D%E6%81%8B/"/>
     
   </entry>
   
