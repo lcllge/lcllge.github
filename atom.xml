@@ -5,9 +5,9 @@
   <subtitle>想起我拖拉机的烟尘喷了那对狗男女一脸,我很解气</subtitle>
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://yoursite.com/"/>
+  <link href="http://lcllge.club/"/>
   <updated>2018-04-24T07:08:30.289Z</updated>
-  <id>http://yoursite.com/</id>
+  <id>http://lcllge.club/</id>
   
   <author>
     <name>兰州</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>SpringMVC前台传参后台接收</title>
-    <link href="http://yoursite.com/2018/04/24/SpringMVC%E5%89%8D%E5%8F%B0%E4%BC%A0%E5%8F%82%E5%90%8E%E5%8F%B0%E6%8E%A5%E6%94%B6/"/>
-    <id>http://yoursite.com/2018/04/24/SpringMVC前台传参后台接收/</id>
+    <link href="http://lcllge.club/2018/04/24/SpringMVC%E5%89%8D%E5%8F%B0%E4%BC%A0%E5%8F%82%E5%90%8E%E5%8F%B0%E6%8E%A5%E6%94%B6/"/>
+    <id>http://lcllge.club/2018/04/24/SpringMVC前台传参后台接收/</id>
     <published>2018-04-24T14:55:42.000Z</published>
     <updated>2018-04-24T07:08:30.289Z</updated>
     
@@ -37,16 +37,16 @@
     
     </summary>
     
-      <category term="SpringMVC" scheme="http://yoursite.com/categories/SpringMVC/"/>
+      <category term="SpringMVC" scheme="http://lcllge.club/categories/SpringMVC/"/>
     
     
-      <category term="SpringMVC" scheme="http://yoursite.com/tags/SpringMVC/"/>
+      <category term="SpringMVC" scheme="http://lcllge.club/tags/SpringMVC/"/>
     
-      <category term="Spring" scheme="http://yoursite.com/tags/Spring/"/>
+      <category term="Spring" scheme="http://lcllge.club/tags/Spring/"/>
     
-      <category term="前台传参" scheme="http://yoursite.com/tags/%E5%89%8D%E5%8F%B0%E4%BC%A0%E5%8F%82/"/>
+      <category term="前台传参" scheme="http://lcllge.club/tags/%E5%89%8D%E5%8F%B0%E4%BC%A0%E5%8F%82/"/>
     
-      <category term="后台接收参数" scheme="http://yoursite.com/tags/%E5%90%8E%E5%8F%B0%E6%8E%A5%E6%94%B6%E5%8F%82%E6%95%B0/"/>
+      <category term="后台接收参数" scheme="http://lcllge.club/tags/%E5%90%8E%E5%8F%B0%E6%8E%A5%E6%94%B6%E5%8F%82%E6%95%B0/"/>
     
   </entry>
   
