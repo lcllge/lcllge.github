@@ -4,6 +4,32 @@
 
     
   <url>
+    <loc>http://lcllge.club/2018/04/26/%E6%95%99%E5%A4%A7%E5%AE%B6%E6%80%8E%E4%B9%88%E5%9C%A8hexo%E4%B8%8A%E6%98%BE%E7%A4%BA%E8%BF%99%E4%B8%AA%E8%BF%99%E4%B8%AA%E6%9C%AC%E5%9C%B0%E5%9B%BE%E7%89%87/</loc>
+    <lastmod>2018-04-26T02:00:33.223Z</lastmod>
+    <data>
+        <display>
+        <title>教大家怎么在hexo上显示这个这个本地图片</title>
+        <pubTime>2018-04-26T09:25:44.000Z</pubTime>
+        
+        <tag>Hexo</tag>
+         
+        <tag>next</tag>
+         
+        <tag>显示图片</tag>
+         
+        <tag>本地图片</tag>
+         
+         
+           
+             
+              <breadCrumb title="Hexo" url="http://lcllge.club/categories/Hexo/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://lcllge.club/2018/04/26/%E9%82%A3%E6%AC%A1%E5%A4%B1%E6%81%8B/</loc>
     <lastmod>2018-04-26T01:19:12.358Z</lastmod>
     <data>
@@ -11,8 +37,19 @@
         <title>那次失恋</title>
         <pubTime>2018-04-26T08:37:32.000Z</pubTime>
         
+        <tag>情感</tag>
+         
+        <tag>失恋</tag>
+         
+        <tag>离别</tag>
+         
+        <tag>爱情</tag>
+         
          
            
+             
+              <breadCrumb title="失恋" url="http://lcllge.club/categories/%E5%A4%B1%E6%81%8B/"/>
+          
         </display>
     </data>
     </url>

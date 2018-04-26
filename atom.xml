@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://lcllge.club/"/>
-  <updated>2018-04-26T01:19:12.358Z</updated>
+  <updated>2018-04-26T02:00:33.223Z</updated>
   <id>http://lcllge.club/</id>
   
   <author>
@@ -17,25 +17,61 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>教大家怎么在hexo上显示这个这个本地图片</title>
+    <link href="http://lcllge.club/2018/04/26/%E6%95%99%E5%A4%A7%E5%AE%B6%E6%80%8E%E4%B9%88%E5%9C%A8hexo%E4%B8%8A%E6%98%BE%E7%A4%BA%E8%BF%99%E4%B8%AA%E8%BF%99%E4%B8%AA%E6%9C%AC%E5%9C%B0%E5%9B%BE%E7%89%87/"/>
+    <id>http://lcllge.club/2018/04/26/教大家怎么在hexo上显示这个这个本地图片/</id>
+    <published>2018-04-26T09:25:44.000Z</published>
+    <updated>2018-04-26T02:00:33.223Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote><p><strong>[教程向]</strong>教大家怎么在hexo上显示这个这个本地图片</p></blockquote><a id="more"></a><p>插件前提以及主题设置:</p><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//来个插件</span></span><br><span class="line">npm install https:<span class="comment">//github.com/CodeFalling/hexo-asset-image -- save</span></span><br><span class="line"></span><br><span class="line"><span class="comment">//主题开启图片文件夹配置</span></span><br><span class="line">post_asset_folder: <span class="keyword">true</span></span><br></pre></td></tr></table></figure><p>现在先写篇文章:</p><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo <span class="keyword">new</span> <span class="string">"文章名"</span></span><br></pre></td></tr></table></figure><p>然后你就会发现在source的文件夹下面会和你的文章md文件有个同名的文件夹</p><p><img src="pic1.png" alt="“文件夹”"></p><p>这个时候我们只需要吧对应的图片放进去就好了</p><p>在文章读取图片的路径格式为:</p><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">![例子](例子.png)</span><br></pre></td></tr></table></figure><p>发布上去就大功告成了!!</p><p><img src="pic2.png" alt="“文件夹”"></p><p>如果你要本地预览就要上这个文件名(文件夹名字)前缀:</p><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">![例子](文件夹名/例子.png)</span><br></pre></td></tr></table></figure><p>比如这效果:</p><p><img src="pic3.png" alt="&quot;示例&quot;"></p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;[教程向]&lt;/strong&gt;教大家怎么在hexo上显示这个这个本地图片&lt;/p&gt;
+&lt;/blockquote&gt;
+    
+    </summary>
+    
+      <category term="Hexo" scheme="http://lcllge.club/categories/Hexo/"/>
+    
+    
+      <category term="Hexo" scheme="http://lcllge.club/tags/Hexo/"/>
+    
+      <category term="next" scheme="http://lcllge.club/tags/next/"/>
+    
+      <category term="显示图片" scheme="http://lcllge.club/tags/%E6%98%BE%E7%A4%BA%E5%9B%BE%E7%89%87/"/>
+    
+      <category term="本地图片" scheme="http://lcllge.club/tags/%E6%9C%AC%E5%9C%B0%E5%9B%BE%E7%89%87/"/>
+    
+  </entry>
+  
+  <entry>
     <title>那次失恋</title>
     <link href="http://lcllge.club/2018/04/26/%E9%82%A3%E6%AC%A1%E5%A4%B1%E6%81%8B/"/>
     <id>http://lcllge.club/2018/04/26/那次失恋/</id>
     <published>2018-04-26T08:37:32.000Z</published>
     <updated>2018-04-26T01:19:12.358Z</updated>
     
-    <content type="html"><![CDATA[<blockquote><h5 id="第一次失恋"><a href="#第一次失恋" class="headerlink" title="第一次失恋"></a>第一次失恋</h5></blockquote><p>我还可以见到她，所以这不算传统意义上的失恋。但我已无再去与她交谈的勇气。</p><p>在我意识的深处，我已经永远无法和她交谈。</p><p><img src="bs.gif" alt="“我的图片”"></p><p>第一次接触到纯属偶然，只是一次简单的偶遇而已。我并没有感到兴奋或遗憾，就像买彩票时中了十元钱一样，是一种平淡的感觉，我对她并不熟悉，我在那里其实没有熟悉的人。而我在那里就像一个人的记忆中被遗忘的角落，没人搭理我，陪伴我的只有窗外的云。</p><p>我看似是一个粗心大意的人，但我只是把自己观察到的一切藏在心里。我渐渐的发现，她其实是一个很上进的人，她工作努力，为人处世都很好。但她似乎不是一个很有天分的人，如果不是我看走了眼，她的每一分都是真实的，她将来一定会很有出息，既开朗又优秀，至少不会让自己一生被芸芸众生淹没。反观自己，我几乎是她的反面，不努力，甚至有点内心阴暗，我突然有些仰慕她。</p><p>两个多月过去了，我改变了许多，我也不知道为什么，只觉得我的心就像射进了一束光，那束光驱散了我心中的阴暗。我开始有了沉思的习惯，思考自己的过失，思考现在的自己与她的区别。</p><p><img src="buxue.gif" alt="“我的图片”"></p><p>但我终究是要走了，我有些失魂落魄了，就像一个在黑夜里一个失去火光的宿营者，被阴暗吞噬。我原以为自己又会回到从前的状态，彻底堕落下去，但每想到她，我就又像心中摄入了一束光一样，我悟到了，她就是我的光。</p><p>开始追随她，让自己和她一样优秀。我翻出了许多网上的知识，一遍遍解析学习，更重要的是修炼自己的耐性和气质，我坚持每天饭后吹风，与夜晚的回忆，无论午时多忙，无论夜里几点，从未间断，谈吐绝无不雅之词，兴止绝无不正之举。我想让自己更好，也想让她知道我会变得更好。</p><p>如今我有了很大改变，从一个阴暗绝望的人蜕变成了一个憧憬未来的人，我不会忘记她，是她让我懂了失去是一种什么样的感受,但路还是要继续的。</p><p><img src="pic.png" alt="“我的图片”"> </p>]]></content>
+    <content type="html"><![CDATA[<blockquote><h5 id="第一次失恋"><a href="#第一次失恋" class="headerlink" title="第一次失恋"></a>第一次失恋</h5></blockquote><a id="more"></a><p>我还可以见到她，所以这不算传统意义上的失恋。但我已无再去与她交谈的勇气。</p><p>在我意识的深处，我已经永远无法和她交谈。</p><p><img src="bs.gif" alt="“我的图片”"></p><p>第一次接触到纯属偶然，只是一次简单的偶遇而已。我并没有感到兴奋或遗憾，就像买彩票时中了十元钱一样，是一种平淡的感觉，我对她并不熟悉，我在那里其实没有熟悉的人。而我在那里就像一个人的记忆中被遗忘的角落，没人搭理我，陪伴我的只有窗外的云。</p><p>我看似是一个粗心大意的人，但我只是把自己观察到的一切藏在心里。我渐渐的发现，她其实是一个很上进的人，她工作努力，为人处世都很好。但她似乎不是一个很有天分的人，如果不是我看走了眼，她的每一分都是真实的，她将来一定会很有出息，既开朗又优秀，至少不会让自己一生被芸芸众生淹没。反观自己，我几乎是她的反面，不努力，甚至有点内心阴暗，我突然有些仰慕她。</p><p>两个多月过去了，我改变了许多，我也不知道为什么，只觉得我的心就像射进了一束光，那束光驱散了我心中的阴暗。我开始有了沉思的习惯，思考自己的过失，思考现在的自己与她的区别。</p><p><img src="buxue.gif" alt="“我的图片”"></p><p>但我终究是要走了，我有些失魂落魄了，就像一个在黑夜里一个失去火光的宿营者，被阴暗吞噬。我原以为自己又会回到从前的状态，彻底堕落下去，但每想到她，我就又像心中摄入了一束光一样，我悟到了，她就是我的光。</p><p>开始追随她，让自己和她一样优秀。我翻出了许多网上的知识，一遍遍解析学习，更重要的是修炼自己的耐性和气质，我坚持每天饭后吹风，与夜晚的回忆，无论午时多忙，无论夜里几点，从未间断，谈吐绝无不雅之词，兴止绝无不正之举。我想让自己更好，也想让她知道我会变得更好。</p><p>如今我有了很大改变，从一个阴暗绝望的人蜕变成了一个憧憬未来的人，我不会忘记她，是她让我懂了失去是一种什么样的感受,但路还是要继续的。</p><p><img src="pic.png" alt="“我的图片”"> </p>]]></content>
     
     <summary type="html">
     
-      
-      
-        &lt;blockquote&gt;
+      &lt;blockquote&gt;
 &lt;h5 id=&quot;第一次失恋&quot;&gt;&lt;a href=&quot;#第一次失恋&quot; class=&quot;headerlink&quot; title=&quot;第一次失恋&quot;&gt;&lt;/a&gt;第一次失恋&lt;/h5&gt;&lt;/blockquote&gt;
-&lt;p&gt;我还可以见到她，所以这不算传统意义上的失恋。但我已无再去与她交
-      
     
     </summary>
     
+      <category term="失恋" scheme="http://lcllge.club/categories/%E5%A4%B1%E6%81%8B/"/>
+    
+    
+      <category term="情感" scheme="http://lcllge.club/tags/%E6%83%85%E6%84%9F/"/>
+    
+      <category term="失恋" scheme="http://lcllge.club/tags/%E5%A4%B1%E6%81%8B/"/>
+    
+      <category term="离别" scheme="http://lcllge.club/tags/%E7%A6%BB%E5%88%AB/"/>
+    
+      <category term="爱情" scheme="http://lcllge.club/tags/%E7%88%B1%E6%83%85/"/>
     
   </entry>
   
