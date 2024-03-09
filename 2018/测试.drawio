@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-09T06:45:55.617Z" agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="AzFLmKVUkI7Qrshcvv7K" version="24.0.3" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-09T06:49:54.644Z" agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="dBe_nO5VOsKi7M7I0sMm" version="24.0.3" type="github">
   <diagram name="第 1 页" id="0BPGrZjvOIaT2mZOJnHN">
     <mxGraphModel dx="1562" dy="781" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -70,47 +70,56 @@
         <mxCell id="G3loWDsG2SVTk1HPXEyh-28" value="新增审计" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="420" y="270" width="110" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="G3loWDsG2SVTk1HPXEyh-31" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="540" y="270" width="510" height="170" as="geometry" />
+        <mxCell id="G3loWDsG2SVTk1HPXEyh-46" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1160" y="550" width="640" height="370" as="geometry" />
         </mxCell>
-        <mxCell id="G3loWDsG2SVTk1HPXEyh-30" value="Admin" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="560" y="320" width="20" height="40" as="geometry" />
+        <mxCell id="G3loWDsG2SVTk1HPXEyh-31" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1280" y="740" width="510" height="170" as="geometry" />
         </mxCell>
         <mxCell id="G3loWDsG2SVTk1HPXEyh-32" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="540" y="90" width="510" height="170" as="geometry" />
-        </mxCell>
-        <mxCell id="G3loWDsG2SVTk1HPXEyh-29" value="User" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="560" y="145" width="20" height="40" as="geometry" />
+          <mxGeometry x="1280" y="560" width="510" height="170" as="geometry" />
         </mxCell>
         <mxCell id="G3loWDsG2SVTk1HPXEyh-33" value="" style="shape=actor;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
-          <mxGeometry x="555" y="135" width="30" height="50" as="geometry" />
+          <mxGeometry x="1295" y="605" width="30" height="50" as="geometry" />
         </mxCell>
         <mxCell id="G3loWDsG2SVTk1HPXEyh-34" value="" style="shape=actor;whiteSpace=wrap;html=1;fillColor=#f0a30a;fontColor=#000000;strokeColor=#BD7000;" vertex="1" parent="1">
-          <mxGeometry x="555" y="310" width="30" height="50" as="geometry" />
+          <mxGeometry x="1295" y="780" width="30" height="50" as="geometry" />
         </mxCell>
         <mxCell id="G3loWDsG2SVTk1HPXEyh-36" value="登入" style="ellipse;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
-          <mxGeometry x="610" y="110" width="100" height="40" as="geometry" />
+          <mxGeometry x="1350" y="580" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="G3loWDsG2SVTk1HPXEyh-37" value="登入" style="ellipse;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
-          <mxGeometry x="610" y="285" width="100" height="40" as="geometry" />
+          <mxGeometry x="1350" y="755" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="G3loWDsG2SVTk1HPXEyh-38" value="新增审计" style="ellipse;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
-          <mxGeometry x="740" y="110" width="100" height="40" as="geometry" />
+          <mxGeometry x="1480" y="580" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="G3loWDsG2SVTk1HPXEyh-39" value="用户管理" style="ellipse;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
-          <mxGeometry x="740" y="285" width="100" height="40" as="geometry" />
+          <mxGeometry x="1480" y="755" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="G3loWDsG2SVTk1HPXEyh-40" value="审核审计" style="ellipse;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
-          <mxGeometry x="880" y="285" width="100" height="40" as="geometry" />
+          <mxGeometry x="1620" y="755" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="G3loWDsG2SVTk1HPXEyh-41" value="字典配置" style="ellipse;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
-          <mxGeometry x="610" y="345" width="100" height="40" as="geometry" />
+          <mxGeometry x="1350" y="815" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="G3loWDsG2SVTk1HPXEyh-42" value="部门管理" style="ellipse;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
-          <mxGeometry x="740" y="345" width="100" height="40" as="geometry" />
+          <mxGeometry x="1480" y="815" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="G3loWDsG2SVTk1HPXEyh-43" value="新增审计" style="ellipse;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
-          <mxGeometry x="880" y="345" width="100" height="40" as="geometry" />
+          <mxGeometry x="1620" y="815" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="G3loWDsG2SVTk1HPXEyh-47" value="普通用户" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1280" y="655" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="G3loWDsG2SVTk1HPXEyh-48" value="管理员" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1280" y="830" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="G3loWDsG2SVTk1HPXEyh-49" value="&lt;font style=&quot;font-size: 26px;&quot;&gt;用户功能分类&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1200" y="585" width="50" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="G3loWDsG2SVTk1HPXEyh-50" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;十万个冷笑话&lt;/h1&gt;&lt;div style=&quot;height: 18px; line-height: 18px; font-size: 14px; color: var(--text2); margin-bottom: 6px; display: -webkit-box; overflow-wrap: break-word; text-overflow: ellipsis; overflow: hidden; -webkit-box-orient: vertical; -webkit-line-clamp: 1; font-family: &amp;quot;PingFang SC&amp;quot;, HarmonyOS_Regular, &amp;quot;Helvetica Neue&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, sans-serif; background-color: rgb(255, 255, 255);&quot; class=&quot;mediainfo_mediaDesc__jjRiB&quot;&gt;2012&amp;nbsp;·&amp;nbsp;已完结, 全8话&amp;nbsp;·&amp;nbsp;&lt;a style=&quot;text-decoration-line: none;&quot; rel=&quot;noreferrer&quot; target=&quot;_blank&quot; class=&quot;mediainfo_avLink__iyzyV&quot; href=&quot;https://www.bilibili.com/video/BV17x411Z7UJ/&quot;&gt;BV17x411Z7UJ&lt;/a&gt;&lt;/div&gt;&lt;div style=&quot;height: 18px; line-height: 18px; font-size: 14px; color: var(--text2); margin-bottom: 6px; display: -webkit-box; overflow-wrap: break-word; text-overflow: ellipsis; overflow: hidden; -webkit-box-orient: vertical; -webkit-line-clamp: 1; font-family: &amp;quot;PingFang SC&amp;quot;, HarmonyOS_Regular, &amp;quot;Helvetica Neue&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, sans-serif; background-color: rgb(255, 255, 255);&quot; title=&quot;声优：李靖:宝木中阳&lt;br/&gt;哪吒:山新、皇贞季&lt;br/&gt;福禄小金刚:皇贞季&lt;br/&gt;太2真人:周杰倫&quot; class=&quot;mediainfo_mediaDesc__jjRiB&quot;&gt;声优：李靖:宝木中阳 哪吒:山新、皇贞季 福禄小金刚:皇贞季 太2真人:周杰倫&lt;/div&gt;&lt;p&gt;&lt;a style=&quot;text-decoration-line: none; line-height: 20px; font-size: 14px; overflow: hidden; position: relative; display: block; min-height: 36px; overflow-wrap: break-word; word-break: break-all; white-space: pre-wrap; font-family: &amp;quot;PingFang SC&amp;quot;, HarmonyOS_Regular, &amp;quot;Helvetica Neue&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, sans-serif; background-color: rgb(255, 255, 255);&quot; rel=&quot;noreferrer&quot; target=&quot;_blank&quot; class=&quot;mediainfo_media_desc__FdCrM&quot; href=&quot;https://www.bilibili.com/bangumi/media/md28221161&quot;&gt;&lt;/a&gt;&lt;/p&gt;&lt;p style=&quot;display: block; margin: 0px; padding: 0px;&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;简介：《十万个冷笑话》是根据漫画家寒舞的作品改编的动画，由卢恒宇，李姝洁导演。动画第一季于2012年7月11日播出，共12集，已完结。&lt;br/&gt;该动画由一系列吐槽短篇组成，短篇之间目前看似没关系，但关系又非常微妙，语言也十分符合网民需求，被誉为“中国版的日和”。目前已连载的篇章有葫芦娃篇、世界末日篇、哪吒篇、光之国篇，以及一系列杂篇有见鬼篇、亚基篇、柯哔篇等。&lt;/font&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="550" y="105" width="490" height="325" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
