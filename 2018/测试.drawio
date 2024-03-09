@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-09T06:39:53.277Z" agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="dgkseBSKZXZKQwj0d6ay" version="24.0.3" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-09T06:45:46.472Z" agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="T3kO9QLkS9fSeyr74VFT" version="24.0.3" type="github">
   <diagram name="第 1 页" id="0BPGrZjvOIaT2mZOJnHN">
     <mxGraphModel dx="1562" dy="781" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -44,7 +44,7 @@
           <mxGeometry x="215" y="290" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="G3loWDsG2SVTk1HPXEyh-17" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="420" y="80" width="670" height="370" as="geometry" />
+          <mxGeometry x="420" y="80" width="640" height="370" as="geometry" />
         </mxCell>
         <mxCell id="G3loWDsG2SVTk1HPXEyh-18" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="420" y="80" width="110" height="370" as="geometry" />
@@ -69,6 +69,48 @@
         </mxCell>
         <mxCell id="G3loWDsG2SVTk1HPXEyh-28" value="新增审计" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="420" y="270" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="G3loWDsG2SVTk1HPXEyh-31" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="270" width="510" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="G3loWDsG2SVTk1HPXEyh-30" value="Admin" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="560" y="320" width="20" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="G3loWDsG2SVTk1HPXEyh-32" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="90" width="510" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="G3loWDsG2SVTk1HPXEyh-29" value="User" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="560" y="145" width="20" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="G3loWDsG2SVTk1HPXEyh-33" value="" style="shape=actor;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+          <mxGeometry x="555" y="135" width="30" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="G3loWDsG2SVTk1HPXEyh-34" value="" style="shape=actor;whiteSpace=wrap;html=1;fillColor=#f0a30a;fontColor=#000000;strokeColor=#BD7000;" vertex="1" parent="1">
+          <mxGeometry x="555" y="310" width="30" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="G3loWDsG2SVTk1HPXEyh-36" value="登入" style="ellipse;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="610" y="110" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="G3loWDsG2SVTk1HPXEyh-37" value="登入" style="ellipse;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="610" y="285" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="G3loWDsG2SVTk1HPXEyh-38" value="新增审计" style="ellipse;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="740" y="110" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="G3loWDsG2SVTk1HPXEyh-39" value="新增审计" style="ellipse;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="740" y="285" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="G3loWDsG2SVTk1HPXEyh-40" value="审核审计" style="ellipse;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="880" y="285" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="G3loWDsG2SVTk1HPXEyh-41" value="字典配置" style="ellipse;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="610" y="345" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="G3loWDsG2SVTk1HPXEyh-42" value="部门管理" style="ellipse;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="740" y="345" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="G3loWDsG2SVTk1HPXEyh-43" value="新增审计" style="ellipse;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="880" y="345" width="100" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
